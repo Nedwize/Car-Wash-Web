@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700i,900i&display=swap');
+
+
+
+body{
+    overflow-x: hidden;
+    font-family: "Lato", sans-serif;
+    color: #505962;
+    background: #10222e;
+}
+
+header{
+  padding-top: 0;
+}
+
+.company-logo{
+  font-weight: 900;
+  /*font-size: 3rem !important;*/
+  font-family: 'Roboto', sans-serif;
+  font-style: oblique;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  border: 0.6rem solid #0fbe61;
+  box-shadow: 0.1rem 0.1rem 0.8rem black;
+  letter-spacing: 0;
+}
+
+#company-footer {
+  font-size: 3.8rem !important;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  text-shadow: 0.1rem 0.1rem 0.8rem black;
+  /*text-transform: uppercase;*/
+  padding-bottom: 1rem;
+  margin-top: 40px;
+  border: 0.6rem solid transparent;
+}
+
+.green{
+  color: #0fbe61;
+}
+
+
+
+.carousel-caption{
+  position: absolute;
+  top: 38%;
+  text-align: center;
+  right: 0;
+  left: 0;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+.carousel-caption h1{
+  font-size: 3.8rem !important;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  text-shadow: 0.1rem 0.1rem 0.8rem black;
+  /*text-transform: uppercase;*/
+  padding-bottom: 1rem;
+  border: 0.6rem solid transparent;
+}
+
+.carousel-caption h3{
+  font-size: 1.5rem;
+  text-shadow: 0.1rem 0.1rem 0.5rem black;
+  padding-bottom: 1.6rem;
+}
+
+.carousel-caption button{
+  border-radius: 0 !important;
+  border-width: medium;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.carousel-caption button:hover{
+  border-radius: 0 !important;
+  border-width: medium;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  background-color: #0fbe61;
+  color: white;
+  border-color: #0fbe61;
+  transition: all 0.1s ease-in-out;
+}
+
+button:focus{
+  outline: none !important;
+}
+
+
+.portfolio{
+  overflow: hidden;
+
+}
+
+
+.plan{
+  /*overflow: hidden;*/
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.plan img{
+  max-width: 100%;
+  transition: transform 0.5s ease;
+  border-radius: 1.25rem;
+  
+}
+
+.plan img:hover {
+  transform: scale(1.1);
+  border-radius: 1.25rem;
+  
+}
+
+.container-portfolio{
+  height: 455px;
+  width: 455px;
+  overflow: hidden;
+}
+
+.jumbotron{
+  border-radius: 0 !important;
+}
+
+.portfolio img{
+  max-width: 100%;
+  transition: transform 0.5s ease;
+}
+
+.portfolio img:hover{
+  transform: scale(1.1);
+}
+
+.row.no-padding [class*=col-]{
+  padding: 0;
+}
+
+#mainNav {
+    /* background-color: #a0693e; */
+    /*text-transform: uppercase;*/
+    font-weight: 700;
+    letter-spacing: 0.095rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-bottom: 0;
+}
+
+#mainNav .navbar-brand{
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    font-style: oblique;
+    /*color: #0fbe61;*/
+    font-size: 2rem;
+    letter-spacing: 0;
+}
+
+
+
+#mainNav .nav-link{
+    color: white;
+    /*font-size: 1.125rem;*/
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 0.15rem;
+    text-align: center;
+}
+
+#mainNav .nav-link.active{
+  color: #0fbe61;
+}
+
+#mainNav .nav-link:hover{
+    color: #0fbe61;
+    font-weight: 700;
+    transition: all 0.2s ease-in-out;
+}
+
+.carousel-item{
+  height: 100vh;
+  /*background: url("img1.jpg");*/
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
+
+
+
+
+
+.cta {
+    /* padding-top: 5rem; */
+    /* padding-bottom: 5rem; */
+    background-color: #182c39;
+    height: 100vh;
+    color: white;
+  }
+  
+  .cta .cta-inner {
+    position: relative;
+    padding: 3rem;
+    margin: 0.5rem;
+    background-color: #0fbe61;
+  }
+  
+  .cta .cta-inner:before {
+    border-radius: 0.5rem;
+    content: '';
+    position: absolute;
+    top: -0.5rem;
+    bottom: -0.5rem;
+    left: -0.5rem;
+    right: -0.5rem;
+    border: 0.25rem solid #0fbe61;
+  }
+
+  .section-heading {
+    text-transform: uppercase;
+  }
+  
+  .section-heading .section-heading-upper {
+    display: block;
+    font-size: 1rem;
+    font-weight: 800;
+  }
+  
+  .section-heading .section-heading-lower {
+    display: block;
+    font-size: 3rem;
+    font-weight: 100;
+  }
+
+/*=================================================================FOOTER================================================================================*/
+
+#myFooter {
+    /*background-color: #0fbe61;*/
+    background-color: #182c39; 
+    color: white;
+    padding-top: 20px;
+}
+
+
+#myFooter .row {
+    margin: 0 85px;
+}
+
+#myFooter .footer-copyright {
+    background-color: #10222e;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+#myFooter .container {
+    width: auto;
+    /*text-align: center;*/
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 1.8rem;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem; 
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: #0fbe61;
+    transition: 0.2s ease-in-out;
+}
+
+#myFooter .social-networks {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 38px;
+}
+
+#myFooter #true-icons {
+    font-size: 30px;
+    margin-right: 15px;
+    margin-left: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 51%;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 31px;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+#myFooter #true-icons:hover {
+    color: #0fbe61;
+}
+
+#dev-icons{
+    font-size: 2.5rem;
+    transition: color 0.2s;
+    padding: 0.5rem;
+    padding-left: 0;
+    padding-right: 1rem;
+}
+
+.support{
+    text-align: left;
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+    #myFooter .row {
+        margin: 0;
+    }
+}
+
+  
